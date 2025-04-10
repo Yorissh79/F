@@ -6,15 +6,24 @@
   justify-content: center;
   flex-direction: column;
 
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 50px;
+  }
+
   .boddy {
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     height: 100%;
-    gap: 120px;
+    gap: 10px;
 
   }
 
