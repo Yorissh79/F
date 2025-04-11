@@ -39,12 +39,15 @@
         line-height: 40px;
         text-align: center;
         cursor: pointer;
+        transition: 0.3s;
+
           
         p {
           font-size: 15px;
           padding-left: 25px;
           padding-right: 25px;
           font-weight: 600;
+
         }
       }
 

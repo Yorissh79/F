@@ -16,9 +16,9 @@ const Timer = () => {
             <p className={style.par}>Deal Of The Week</p>
             <div className={style.timer}>
 
-                <Circle time={2} name="Day"/>
-                <Circle time={2} name="Hours"/>
-                <Circle time={2} name="Mins"/>
+                <Circle time={3} name="Day"/>
+                <Circle time={10} name="Hours"/>
+                <Circle time={20} name="Mins"/>
                 <Circle time={50} name="Sec"/>
 
             </div>
