@@ -26,7 +26,9 @@ const Header = () => {
         <div className={style.icons}>
             <CiSearch style={{fontSize:"1.2em"}}/>
             <CiUser  style={{fontSize:"1.2em"}}/>
-            <CiShoppingCart  style={{fontSize:"1.2em"}}/>    
+            <div className={style.circle}>
+              <CiShoppingCart  style={{fontSize:"1.2em"}}/>    
+            </div>
         </div>
 
 

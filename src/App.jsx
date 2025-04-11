@@ -4,6 +4,7 @@ import Card from './components/card/Card'
 import Photo from './components/photo/Photo'
 import Test from './components/test/Test'
 import Bort from './components/bort/Bort'
+import Time from './components/timer/Timer'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
@@ -42,6 +43,7 @@ function App() {
 
       </div>
 
+      <Time/>
 
     </div>
 
